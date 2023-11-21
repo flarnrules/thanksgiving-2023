@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanksgiving Recipes</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Thanksgiving Feast Recipes</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#turkey">Roast Turkey</a></li>
+            <li><a href="#stuffing">Stuffing</a></li>
+            <li><a href="#pie">Pumpkin Pie</a></li>
+            <!-- Add more dishes here -->
+        </ul>
+    </nav>
+    <main>
+        <section id="turkey">
+            <h2>Roast Turkey</h2>
+            <p><!-- Recipe details here --></p>
+        </section>
+        <section id="stuffing">
+            <h2>Stuffing</h2>
+            <p><!-- Recipe details here --></p>
+        </section>
+        <section id="pie">
+            <h2>Pumpkin Pie</h2>
+            <p><!-- Recipe details here --></p>
+        </section>
+        <!-- Add more recipe sections here -->
+    </main>
+    <footer>
+        <p>© 2023 Thanksgiving Recipes</p>
+    </footer>
+
+    <script type="text/javascript">
+        const correctPassword = 'turkey';
+        const userPassword = prompt("Please enter the password to access recipes:");
+    
+        if(userPassword !== correctPassword) {
+            document.body.innerHTML = 'Access Denied';
+        }
+    </script>
+</body>
+</html>
