@@ -6,8 +6,10 @@ body {
     padding: 0 20px;
 }
 
-header {
-    background: #a0522d; /* Sienna color */
+header, nav {
+    position: sticky;
+    top: 0;
+    background: #df662f; /* Sienna color */
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -17,9 +19,12 @@ header h1 {
     margin: 0;
 }
 
+
+
 nav ul {
     list-style: none;
     padding: 0;
+    text-align: center;
 }
 
 nav ul li {
